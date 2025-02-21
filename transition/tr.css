@@ -1,0 +1,22 @@
+.sqrToCir{
+
+    height: 100px;
+    width: 100px;
+    background-color: rgb(9, 255, 0);
+    /* transition-duration: 1s;
+    transition-delay: 1s; */
+    margin: 0 auto;
+    margin-top: 10px;
+    transition: margin-top 3s ease-in 0.2s;
+
+}
+.sqrToCir:hover{
+    /* background-color: black;
+    border-radius: 50%; */
+    margin-top: 400px;
+    transform: rotate(45deg);
+    background-color: hotpink;
+    
+
+    /* transition: margin-top 1s ease-in-out 0.2s;*/
+} 

@@ -1,0 +1,42 @@
+#outer{
+    width: 400px;
+    height: 400px;
+    background-color: blueviolet;
+    margin: 0 auto;
+}
+#inner{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(255, 208, 0);
+    border-radius: 50%;
+}
+#eyes{
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#eyes>div {
+    border: 1px solid black;
+    height: 70px; 
+    width: 50px;
+    display: inline-block;
+    margin: 55px 35px 35px 35px;
+    border-radius: 50%;
+    background-color: black;
+}
+#mouth{
+    height: 50%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#mouth>div{
+    border: 1px solid black;
+    height: 70px; 
+    width: 180px;
+    margin: 30px;
+    background-color: red;
+    border-bottom-right-radius: 70px;
+    border-bottom-left-radius: 70px;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/server">
+        <div> 
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label> 
+            <input type="radio" id="Female" name="gender" value="Female">
+            <label for="Female">Female</label>
+            <button type="submit">Submit</button>
+        </div>
+        <hr>
+        <div>
+            <input type="checkbox" name="subjects" id="Math" value="Math">
+            <label for="Math">Math</label>
+            <input type="checkbox" name="subjects" id="english" value="english">
+            <label for="english">english</label>
+            <input type="checkbox" name="subjects" id="Science" value="Science">
+            <label for="Science">Science</label>
+            <button type="submit">submit</button>
+
+        </div>
+        <hr>
+        <div>
+            choose your country
+           <select name="country" id="country">
+            <option value="India">India</option>
+            <option value="USA">USA</option>
+           </select> 
+           <label for="country">country</label>
+
+        </div>
+        <hr>
+        <div>
+            <input type="range" name="vol" id="vol" min="0" max="100" step="20"> 
+            <label for="vol">Select your volume</label>
+        </div>
+        <hr>
+        <div>
+            <textarea name="feedback" id="feedback" cols="30" rows="10" placeholder="feedback here"></textarea>
+            <label for="feedback">please give your feedback</label>
+        </div>
+    </form>
+</body>
+</html>
